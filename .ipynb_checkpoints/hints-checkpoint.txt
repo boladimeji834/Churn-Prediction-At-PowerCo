@@ -1,0 +1,44 @@
+Let’s get familiar with the data
+
+As a Data Scientist at BCG, there will be occasions when you need to analyse data or investigate an issue and you are not provided strict instructions or guidance. You may be thinking, where do I start?
+
+It is a highly valuable skill to begin to learn how to investigate a problem independently. A great way to learn this skill is to build a framework for analysis that works for you.
+
+In this step, you'll need to analyse client data sets using Python and upload your work as a Jupyter notebook. We'll show you an example answer on the next step, but we encourage you to give it a go first!
+
+
+The client has sent over 3 data sets (shown below):
+
+    Historical customer data: Customer data such as usage, sign up date, forecasted usage etc
+    Historical pricing data: variable and fixed pricing data etc
+    Churn indicator: whether each customer has churned or not
+
+
+You need to analyze the following using Python:
+
+    The data types of each column
+    Descriptive statistics of the dataset
+    Distributions of columns
+
+
+Estelle has provided a starter Jupyter notebook has been provided for you to use as a template to complete your work. 
+
+
+Here are some tips to help you:
+
+Let’s take a look at the 3 data sets PowerCo. has sent over:
+
+    A first good step is to review the data to make sense of the columns…
+        Hint: Look at data types of column to gain a better understanding of what the columns mean. This is why data description documents are important - they describe exactly what the columns represent.
+         
+    Once you understand the columns in the dataset. Now you want to look at how the values in the data vary…
+        Hint: this is why reporting descriptive statistics is useful because it’ll tell you some basic statistical properties of the columns in the data. It will also tell you how many values feature within a column, e.g. does a column only have 1 unique value or 100? This is useful to know because you can then start to build a picture of what this data represents.
+         
+    You now understand how the values vary and what the data represents - next up, it can be useful to visualize some of this…
+        Hint: Not all visualizations are useful. Keep the visualizations simple and always keep in mind what you’re trying to show. E.g. if you want to see how the distribution of a column looks and that column has 1000 unique values, using a pie chart would not be good because it would become too crowded! If the values are numeric, a distribution plot would be more appropriate.
+        Hint: make sure to use the starter Jupyter notebook provided, as this will show you some example visualizations and sample code to use!
+         
+
+At this stage, you should now have a clearer understanding of what the data is and how it looks. This framework is not exhaustive, but it shows how you could start to build your own framework for analysing data.
+
+When you’re ready, upload your Python code notebook to complete this task.

@@ -1,0 +1,23 @@
+Explanation
+
+Getting set up - This task is focused on exploratory data analysis of the client and price data provided:
+
+    The first thing you should do is download the provided Jupyter notebook and the CSV datasets.
+    To run the notebook, you need to make sure that you provide the path for the CSV files so that you can load the data.
+    By running the cells that exist within the notebook from Estelle, this will show you what the two datasets look like, it will provide you with code to produce descriptive statistics and it will also give some examples and sample code on how to visualize the data.
+
+
+Analysis - Once you’ve run the cells provided, it was your job to build on this exploratory analysis:
+
+    The visualization provided by Estelle shows how many companies churned vs. how many companies did not churn. We can see from this that the churn rate is approximately 10%. This is actually a very good churn rate, the closer the rate is to 0%, the better.
+    The next series of visualizations were created in an attempt to try and dive deeper into how churn changes based on other factors (using other columns). This is useful for us to investigate because it may help us to understand factors that drive churn.
+    In the notebook we visualize churn vs. sales channel, contract type, number of products, number of years and origin/contract offer.
+    For example:
+        We see that for sales channel, there are some sales channels that yield customers churning but there are also other sales channels that have no customers churning.
+        For contract type, we see quite an even split for customers churning. This is interesting because this may suggest that contract type is not a driving factor towards churn rate.
+    Additionally, for some columns their distributions with churn rate included. This is useful for us to understand because based on the distribution of a column, this could affect our feature engineering later.
+    We look at the distribution of consumption, subscribed power and forecast in the notebook. 
+    For example:
+        We notice that the distribution of consumption is very skewed, this is called a positive skew since it is biased towards lower values on the x axis.
+        This is interesting because you may decide to treat this column to reduce the skewness later on during feature engineering. But also because we may want to visualize if there are any outliers within this column. 
+        To investigate outliers, we use a boxplot. From the boxplot we can see that with the column as it is there are definitely some outliers. Once again this is interesting because we may choose to remove some of these outliers later.
